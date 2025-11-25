@@ -36,6 +36,32 @@ It covers form submission validation and cart functionality.
 5. Verify updated price calculation
 
 ---
+### 📁 Project Structure
+```bash
+project/
+├── tests/
+│   ├── Add to Cart Update/
+│   │   └── addToCartUpdateQuantity.spec.ts
+│   ├── From Validation/
+│   │   ├── contact_Invalid.spec.ts
+│   │   └── valid_Contact.spec.ts
+│
+├── playwright-report/
+├── test-results/
+├── Files/
+├── playwright.config.ts
+├── package.json
+├── package-lock.json
+└── README.md
+```
+### 🧪 Run Tests
+```bash
+npx playwright test
+```
+### 🧾 Show Report
+```bash
+npx playwright show-report
+```
 
 ## ✍️ Author
 
